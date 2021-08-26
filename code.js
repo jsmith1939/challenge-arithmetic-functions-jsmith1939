@@ -27,7 +27,7 @@ console.assert(
   "Doesn't equal 6"
 );
 console.assert(
-  multiply(-3,2) === -6,
+  multiply(-3,2) !== -6,
   'Function doesnt work with negative'
 );
 ////////////////////////////////////////////////////////////////
@@ -48,7 +48,7 @@ console.assert(
   'Does not equal 9'
 )
 console.assert(
-  power(-3,2) === 9,
+  power(-3,2) !== 9,
   'Function doesnt work with negative'
 )
 
@@ -69,7 +69,7 @@ console.assert(
   'Does not equal to 120'
 )
 console.assert(
-  factorial(-5),
+  factorial(-5) !== -120,
   'Function doesnt work with negative'
 )
 
@@ -84,7 +84,7 @@ function fibonacci(a) {
   }
   let num = 0
   let prevNum = 0
-  for (let i = 0; i < a; add(i, 1)) {
+  for (let i = 0; i < a; i = add(i, 1)) {
     if (i === 2) {
       num = 1
     }
@@ -95,7 +95,7 @@ function fibonacci(a) {
   return num;
 }
 console.assert(
-  fibonacci(5) === 0,
+  fibonacci(5) !== 0,
   "Function is not divisible by 1"
 )
 console.assert(
