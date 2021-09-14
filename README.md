@@ -15,3 +15,7 @@ Question 1: In this challenge, your `multiply` and `power` functions are only ex
 Question 2: Why is it important that the functions that we write can gracefully handle invalid inputs instead of just letting the code produce JavaScript errors?
 
 _(Put your reflection answers here.)_
+
+Answer #1: It will be difficult to add negative numbers and decimals because thats it requires another set of protocols to prevent unnecessary errors. It could also lead into a mathematical error.
+
+Answer #2: It is important that a function gracefully handle errors because so it wont crash the whole entire page. If this was a deploy application it would look very unprofessional.
